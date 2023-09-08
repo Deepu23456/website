@@ -1,0 +1,176 @@
+.section1{
+    background-color: peachpuff;
+    
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.section1 h1{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+}
+.section1 p{
+    text-align: center;
+    
+}
+.heading{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ .section1 button{
+    background-color: rgb(235, 171, 181);
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+.skills{
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.skills span{
+    font-weight: 500;
+}
+.container{
+    margin: 0;
+    display: block;
+    padding: 50px;
+    
+}
+.my>.heading{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+.div1{
+    background-color:  rgb(250, 230, 214);
+    margin: 0;
+    padding: 0;
+    
+}
+.div1>.my>.heading{
+    margin: 0;
+    padding: 20px;
+}
+
+.section3{
+    
+    background-color: rgb(250, 230, 214);
+    gap: 20px;
+    
+    
+  
+    
+    
+}
+img{
+    width: 400px;
+    height:400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div{
+    padding: 50px;
+}
+div>p{
+  font-weight: 500;
+}
+div>h3{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.section3>h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+div>a{
+    text-transform: capitalize;
+
+}
+.div{
+    margin: 0;
+}
+.other-interest{
+    display: grid;
+    grid-template-columns: minmax(200px,auto) minmax(200px,auto);
+    grid-template-rows: minmax(200px,auto) minmax(200px,auto);
+    
+}
+.interest{
+    background-color:  rgb(250, 230, 214);;
+}
+
+/* .other-interest{
+    display: grid;
+    grid-template-columns: 1fr minmax(400,1200px);
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(250, 230, 214);
+}
+.interest1{
+    grid-area: 1/1/2/2;
+}
+.interest2{
+    grid-area: 1/2/2/3;
+}
+.interest{
+    background-color:  rgb(250, 230, 214);
+} */
+
+.interest>h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+.contact{
+    background-color:peachpuff
+}
+.contact>h1{
+   
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.contact>p{
+  
+    font-size: 150%;
+}
+.contact>a{
+    color: black;
+
+    
+}
+.contact{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+/* .painting{
+    width: 200px;
+    height: 200px;
+} */
